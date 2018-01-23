@@ -57,6 +57,7 @@ module.exports = {
         "__DEV__": true,
         "__PRODUCTION__": true,
         "__SENTRY_VERSION__": true,
+        "__VERSION__": true,
         "jest": true,
     }
 };
