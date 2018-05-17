@@ -46,6 +46,15 @@ module.exports = {
         "jsx-a11y/anchor-is-valid": ["warn", {
             "aspects": ["invalidHref"]
         }],
+        "rules": {
+            "jsx-a11y/label-has-for": [2, {
+                "components": ["Label"],
+                "required": {
+                    "every": ["id"]
+                },
+                "allowChildren": false
+            }]
+        },
         "object-curly-newline": "off",
     },
     "settings": {
